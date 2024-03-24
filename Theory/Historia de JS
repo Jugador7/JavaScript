@@ -1,0 +1,7 @@
+Historia:
+- Derivado del standard ECMAScript
+- Diseñado para funcionar en navegador NetScape
+- Los navegadores tienen interpretadores embebidos de JavaScript
+- Añaden contenido dinámico a lo que de otra forma sería una página Web estática. 
+- JS es lo fundamental de Ajax: Asynchronous JavaScript and XML. 
+- Funciona con HTML, CSS, XML y JSON. 
