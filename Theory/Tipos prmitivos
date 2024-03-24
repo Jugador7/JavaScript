@@ -1,0 +1,23 @@
+Primitivos de JS:
+- Number 
+Enteros (decimal, octal y hexagesimal)
+Floating points (decimales)
+
+- String
+Se encierran en ""
+
+- Boolean
+Verdadero o falso
+
+- null
+Representado por valores nulos 
+
+- undefined
+Tipo de dato que no ha sido definido o que no existe. 
+
+Wrapper Objects
+
+typeof "abc"; //"string"
+typeof String("abc"); //"string"
+typeof new String("abc"); //"object"
+typeof (new String("abc")).valueOf(); //"string"
