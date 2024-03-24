@@ -1,0 +1,13 @@
+Siempre que se declaran arreglos constructores o literales. 
+
+Los arreglos contienen métodos o propiedades que se usan para almacenar datos. 
+Usan un esquema para comenzar en 0
+Crecen o decrecen dinámicamente al añadir o eliminar elementos. 
+La propiedad de longitud es el índice entero más grande en el arreglo. 
+
+Constructor: 
+numArray = new Array (0,1,2,3,4,5);
+numArray.length // regresa el valor 6
+
+Literales:
+colores = ["red","yellow","blue"];
