@@ -1,1 +1,13 @@
 
+Representados en el formato YYYY-MM-DD 00:00:00 UT
+
+Hay varias formas de pasar parámetros al constructor Date:
+
+1. Sin parametro
+- var hoy = new Date(); //retorna la fecha y hora locales
+
+2. Crear nueva fecha a partir de un String
+- var nuevaFecha = new Date("2024-3-24 18:39:59");
+
+3. Crear sólo la fecha no la hora
+- var nuevaFecha = new Date(2024, 3, 24);
