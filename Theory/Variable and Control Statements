@@ -1,0 +1,51 @@
+Declarar variables: 
+
+- Se puede declarar una variable usando la palabra clave let:
+let age;
+let age = 54; 
+
+- Reglas para declarar nombres de variables: 
+El nombre debe comenzar con una letra, signo $ o _
+Seguido por números 
+Es case-sensitive
+
+- Alcance de variables: 
+Las variables que se declaran en una función tienen alcance local. 
+Las declaradas fuera de una función tienen un alcance global. 
+Variables declaradas con la palabra clave let tienen un alcance global. 
+Variables que no se inicializan tienen un valor de no definidas. 
+
+- Compound Control Statements
+let letter ="E";
+if (letter != ""){
+  if (letter == "A"){
+    //Sentencias
+  } else if (letter == "B"){
+    //Sentencias
+  } else if (letter == "C"){
+    //Sentencias
+  } else {
+    //"Ninguna de las anteriores"
+  }
+} else {
+ //La letra está en blanco. 
+}
+
+- Switch Statements
+switch (expr){
+  case LABEL1:
+    //Statements
+  break
+  case LABEL2: 
+    //Statements
+  break
+  default:
+    //Statements
+}
+
+- for Loops:
+  Formal syntax definition
+  for (initial expression; condition; update expression){
+    //Sentencias que se ejecutan cada vez que el for hace un loop
+    //hace ciclos hasta que la condición se ha cumplido
+  }
