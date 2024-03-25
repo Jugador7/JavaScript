@@ -1,0 +1,4 @@
+Error Objects:
+- Las instancias de este error se crean cuando ocurre una excepción, contienen información acerca del error. 
+- message: Descripción del mensaje de error. 
+- name: Identifica el error como por ejemplo TypeError, RangeError o URIError. 
