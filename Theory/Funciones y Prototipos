@@ -1,0 +1,46 @@
+Las funciones se componen por las siguientes cuatro partes:
+- Palabras claves de una función
+- Nombre de la función
+- Paréntesis con parámetros opcionales
+- Llaves con la lógica asociada. 
+
+function add (n,m) {
+  return n + m;
+}
+
+var x = add(1+2); //retorna 3
+x = add(1.23, 3.45); //retorna 4.68
+x = add ("hello", "world"); //retorna "helloworld" 
+
+Prototype
+
+function Car (make, model, year, color){
+this.make = make;
+this.model = model;
+this.year = year;
+this.color = color; 
+}
+
+Se pueden añadir nuevas propiedades/métodos a los prototipos con un solo llamado. 
+Car.prototype.color ="Red";
+
+Añadir funciones a prototipos
+
+function Car (make, model, year){
+this.make = make;
+this.model = model;
+this.year = year;
+}
+
+Car.prototype.getName = function(){
+return this.make + " " + this.model + " " + this.year;
+}
+
+Funciones autoejecutables
+- Empiezan a ejecutarse tan pronto han sido declaradas
+- Funciones y variables se aislan del resto del script
+- Pueden ser anónimas. 
+
+(function(){
+//Statements
+})();
