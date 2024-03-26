@@ -23,5 +23,38 @@ Example adding a node:
 <head> 
   <script>
     function addParagraph(){
-      
-}
+      var newParagraph = document.createElement("<p>");
+      var newText = document.createTextNode("Hello World");
+      newParagraph.appendChild(newText);
+      document.body.appendChild(newParagraph);
+    }  
+  </script>
+</head>
+
+Modifying Attributes:
+element.setAttribute(attrName, attrValue)
+- Example = document.getElementById("theImage").setAttribute("src","another.gif);
+element.removeAttribute(attrName)
+element.getAttribute(attrName)
+
+Window object methods and events. 
+window.open(url, name, [features, replace])
+window.onload // inicia una función tan pronto carga la página
+window.dump("message") // escribe un mensaje en consola
+window.scrollTo(x-value,y-value) // me lleva a unas coordenadas específicas de la página.  
+
+Example onload: 
+
+<head> 
+  <script>
+    onload = (function (){
+      addParagraph();
+    })();
+    function addParagraph(){
+      var newParagraph = document.createElement("<p>");
+      var newText = document.createTextNode("Hello World");
+      newParagraph.appendChild(newText);
+      document.body.appendChild(newParagraph);
+    }  
+  </script>
+</head>
