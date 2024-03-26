@@ -1,0 +1,27 @@
+Common APIs used in JS Applications are: 
+. document.getElemenById(id); -- element.innerHTML -- window.open
+- documment.getElementsByTagName(name); -- element.style -- window.onload
+- document.createElement(name); --element.setAttribute -- window.scrollTo
+- parentNode.appendChild(node); --element.getAttribute -- elements.getAttribute
+
+
+Example:
+
+var imgSet = document.getElementsByTagName("img");
+var output = "";
+for (var i = 0; i < imgSet.length; i++){
+  output += "<p> Source for image";
+  output += i;
+  output += ": ";
+  output += imgSet[i].src;
+  output += "<\/p>";
+}
+document.write(output);
+
+Example adding a node: 
+
+<head> 
+  <script>
+    function addParagraph(){
+      
+}
