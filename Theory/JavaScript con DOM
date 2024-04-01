@@ -1,0 +1,25 @@
+- DOM (Modelo de los objetos del documento)
+- DOM es lo que está entre HTML, XML, HTML y JS. 
+- El DOM es in interface basada en el navegador para aplicaciones y guiones. 
+- JS usa el DOM para acceder y modificar elementos de la página web en el navegador. 
+- El Standard DOM tiene 5 niveles. Por ahora estudiaremos el nivel 1 en donde el enfocque son APIs de HTML para acceder a elementos de HTML. 
+- JS en la mayoría de navegadores soporta este nivel. 
+
+WINDOW (Controla el entorno que contiene el documento, Se carga siempre que el navegador carga una página, es el objeto global)
+HISTORY (Controla detalles de la historia reciente de las páginas del navegador, permite similar los botones de atrás y adelante del navegador)
+LOCATION (Contiene información acerca de la URL de una página)
+NAVIGATOR (Representa al navegador o al agente usuario, las propiedades de este objecto no son consistentes entre navegadores)
+SCREEN (Información sobre la pantalla)
+DOCUMENT (Accede a elementos HTML)
+
+Objeto Window:
+
+window.alert
+  alert("message");
+
+window.confirm
+  confirm("message");
+
+window.prompt
+  prompt("message","defaultReply");
+
