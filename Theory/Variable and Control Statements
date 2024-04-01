@@ -15,7 +15,7 @@ Las declaradas fuera de una función tienen un alcance global.
 Variables declaradas con la palabra clave let tienen un alcance global. 
 Variables que no se inicializan tienen un valor de no definidas. 
 
-- Compound Control Statements
+- Sentencias de control compuestas
 let letter ="E";
 if (letter != ""){
   if (letter == "A"){
@@ -27,11 +27,12 @@ if (letter != ""){
   } else {
     //"Ninguna de las anteriores"
   }
-} else {
- //La letra está en blanco. 
+  } else {
+   //La letra está en blanco. 
+  }
 }
 
-- Switch Statements
+- Sentencias Switch
 switch (expr){
   case LABEL1:
     //Statements
