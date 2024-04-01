@@ -23,3 +23,19 @@ window.confirm
 window.prompt
   prompt("message","defaultReply");
 
+Nodos de Nivel 2 del DOM
+
+NODE TYPE - INTEGER VALUE - NODE NAME - NODE VALUE - DESCRIPTION
+Element - 1 - Tag Name - null - Any HTML tag
+Attribute - 2 - Attribute name - Attribute value - A name-value pair  // <div id = "div123">This is a DIV example</div>
+Text - 3 - #text - Text content - Text that is contained by the element
+Comment - 8 - #comment - Text comment - HTML comment
+Document - 9 - #document - null - document object
+Document Type - 10 - DOCTYPE - null - DTD specification
+Fragment - 11 - #document fragment - null - Nodes outside the document
+
+parentNode - Objeto - Objeto contenedor más cercano
+childNodews - Arreglo - Todos los nodos hijos
+firstChild - Objeto
+lastChild - Objeto
+Attributes - NodeMap 
