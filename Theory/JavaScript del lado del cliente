@@ -1,0 +1,52 @@
+Un guión del lado del cliente es un programa que:
+- Acompaña un documento HTML o que puede estar embebido en él. 
+- Corre cuando el documento corre, se activa un link o se hace click en un botón. 
+
+Soporte en HTML es indpendiente del lenguaje de programación. 
+
+Los guiones ofrecen a los autores la opción para extender documentos HTML de maneras altamente interactgivas tales como:
+- Ejecutarse despues de que un documento HTML carga. 
+- Validar formularios y procesar las entradas a medida que se escriben. 
+- Pueden dispararse por eventos que afectan un documento. 
+
+Ejemplo:
+
+1.
+
+<script>
+  //Código de JavaScript
+</script>
+
+2. 
+
+<script src="/source/script.js"></script>
+
+Este segundo permite usar librerías externas
+
+3. Para usuarios que deshabilitan JS o que usan navegadores que no soportan lenguajes de guión. 
+
+<noscript>
+  <p>Access the data from:</p>
+  <a href="http://www.algunlugar.com/data"></a>
+</noscript>
+
+Los guiones se ejecutan cada vez que un evento ocurre en la página, llamar una función cuando un evento ocurre se conoce como vinculación de eventos (binding).
+- onload
+- onclick
+- onmouseover
+- onfocus
+- onkeyup
+- onsubmit
+- onselect
+
+Ejemplo de vinculación de eventos o Event Binding en guiones o Scripts: 
+
+<button type="button" onclick="showAnswers()">Show Solution
+  <script>
+    function showAnswers(){
+      //Code
+      alert("A");
+    }
+  <script>
+</button>
+
