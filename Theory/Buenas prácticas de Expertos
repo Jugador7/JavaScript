@@ -1,0 +1,12 @@
+-Usar IDEs como VS Code o Webstorm
+-Usar linters (XO)
+-Aprender paradigmas y patrones
+-Evita declarar variables y funciones globales
+-Añade el código en la parte inferior de la página
+-Optimiza los loops
+-Comenta todo el código
+-Declara las variables afuera de sentencias que sean muy largas. 
+-Usa ES6 para que sea más limpio el código. 
+-Evita que los programas usen nombres parecidos entre las funciones de mi programa y las librerías externas. 
+-Definir el alcance apropiado de variables y funciones
+-Escribir pruebas unitarias y de integración. 
