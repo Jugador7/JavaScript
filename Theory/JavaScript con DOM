@@ -39,3 +39,9 @@ childNodews - Arreglo - Todos los nodos hijos
 firstChild - Objeto
 lastChild - Objeto
 Attributes - NodeMap 
+
+
+Acceder a elementos del documento. 
+document.forms[0].elements[0]
+document.forms["form1"].elements["field1"]
+document.form1.field1
